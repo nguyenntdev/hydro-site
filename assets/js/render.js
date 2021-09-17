@@ -1,5 +1,5 @@
 var headerContent = `
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav-gradient">
 <!-- Container wrapper -->
 <div class="container-fluid">
   <!-- Toggle button -->

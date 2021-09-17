@@ -3,12 +3,11 @@ i {
   font-size: 1.5em;
 }
 
-.nav-link {
-    padding: 0.7em !important;
-    color: white !important;
+.nav-gradient {
+  background-image: linear-gradient(to right, #d73350, #fc6f69) !important;
+
 }
 
-li a:hover {
-  background: #3c99dc;
-  color: white;
+li a {
+    color: white !important;
 }

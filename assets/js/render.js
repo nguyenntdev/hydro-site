@@ -17,7 +17,7 @@ var footerContent = `
   
 <div class="topnav nav-gradient fixed-bottom" id="myTopnav">
 <div class="hydro" style="float:left">
-<span>  Hydro Team</span>
+<span>Hydro Team</span>
 </div>
 
 <div style="float: right">

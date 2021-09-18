@@ -31,7 +31,7 @@ a {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-image: linear-gradient(to right, #d73350, #fc6f69) !important;
   overflow: hidden;
 }
 
@@ -83,6 +83,8 @@ a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 
+/* Heading */
+
 .heading-1 {
   padding-top: 8em;
 }
@@ -97,8 +99,8 @@ a:hover {
 .text-gradient {
   font-weight: bold;
   font-size: 4rem;
-  display: inline-block;
-  color: var(--purple);
+  display: inline-block !important;
+  background-image: linear-gradient(to right, #d73350, #fc6f69) !important;
 }
 @supports (-webkit-background-clip: text) {
   .text-gradient {
@@ -127,7 +129,6 @@ a:hover {
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: rgb(183, 28, 28);
 }
 
 .about p {
@@ -145,9 +146,6 @@ a:hover {
   transform: translateX(5px);
 }
 
-
-
-
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -159,12 +157,13 @@ section {
 }
 
 .section-header h2 {
-  font-size: 13px;
-  letter-spacing: 1px;
+  font-size: 30px;
+  letter-spacing: 5px;
   font-weight: 700;
   margin: 0;
-  color: #ff1744;
+  color: linear-gradient(to right, #d73350, #fc6f69) !important;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .section-header p {
@@ -173,7 +172,8 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: rgb(183, 28, 28);
+  color: transparent;
+  background-image: linear-gradient(to right, #d73350, #fc6f69) !important;
 }
 
 @media (max-width: 768px) {
@@ -183,8 +183,9 @@ section {
   }
 }
 
-
-
+.title {
+  color: rgb(183, 28, 28);
+}
 
 /*--------------------------------------------------------------
 # Pricing
@@ -285,3 +286,7 @@ section {
   color: #ff1744;
 }
 
+.turing {
+  margin-top: 37.5px !important;
+  margin-bottom: 37.5px !important;
+}

@@ -2,10 +2,10 @@ var headerContent = `
 
 
 <div class="topnav nav-gradient" id="myTopnav">
-  <a href="#home" class="active">Trang chủ</a>
-  <a href="#news">Blog</a>
-  <a href="https://fb.com/leminhtri.dev">Liên hệ</a>
-  <a href="#about">Tổ chức Kode</a>
+  <a href="#home" class="active"><i class="fas fa-home"></i>  Trang chủ</a>
+  <a href="#news"><i class="fab fa-blogger-b"></i>  Blog</a>
+  <a href="https://fb.com/leminhtri.dev"><i class="far fa-address-book"></i>  Liên hệ</a>
+  <a href="#about"><i class="fas fa-globe-asia"></i>  Tổ chức Kode</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -17,7 +17,7 @@ var footerContent = `
   
 <div class="topnav nav-gradient fixed-bottom" id="myTopnav">
 <div class="hydro" style="float:left">
-<span>Hydro Team</span>
+<span>  Hydro Team</span>
 </div>
 
 <div style="float: right">

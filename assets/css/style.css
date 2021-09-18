@@ -783,3 +783,7 @@ body {
 
 /* LoL */
 
+.img {
+  border-radius: 30px;
+  border: 10px solid #fc6f69;
+}

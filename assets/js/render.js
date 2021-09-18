@@ -5,7 +5,7 @@ var headerContent = `
   <a href="#home" class="active"><i class="fas fa-home"></i>  Trang chủ</a>
   <a href="#news"><i class="fab fa-blogger-b"></i>  Blog</a>
   <a href="https://fb.com/leminhtri.dev"><i class="far fa-address-book"></i>  Liên hệ</a>
-  <a href="#about"><i class="fas fa-globe-asia"></i>  Tổ chức Kode</a>
+  <a href="https://kodelang.dev"><i class="fas fa-globe-asia"></i>  Tổ chức Kode</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>

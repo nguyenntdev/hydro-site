@@ -84,11 +84,11 @@ particlesJS("particles-js", {
         "size": 40,
         "duration": 2,
         "opacity": 8,
-        "speed": 3
+        "speed": 1
       },
       "repulse": {
         "distance": 200,
-        "duration": 0.4
+        "duration": 0.1
       },
       "push": {
         "particles_nb": 4

@@ -109,6 +109,7 @@ a:hover {
     color: transparent;
     background-image: linear-gradient(to right, #d73350, #fc6f69) !important;
     -webkit-background-clip: text;
+    background-clip: text;
   }
 }
 

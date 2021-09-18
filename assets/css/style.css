@@ -269,7 +269,7 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #ff1744;
+  background-image: linear-gradient(to right, #d73350, #fc6f69) !important;
   color: #fff !important;
 }
 
@@ -282,7 +282,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #ff1744;
+  background-image: linear-gradient(to right, #d73350, #fc6f69) !important;
   color: #ff1744;
 }
 
